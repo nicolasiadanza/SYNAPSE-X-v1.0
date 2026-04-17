@@ -1,4 +1,3 @@
-<<EOF > README.md
 # ⚡ SYNAPSE-X v1.0
 > **Autonomous AI Infrastructure Sentinel**
 
@@ -11,7 +10,7 @@ The agent operates as a closed-loop system:
 3. **Execution:** An internal API that triggers recovery actions (e.g., automated restarts).
 4. **Notification:** Seamless integration with **n8n** and **Telegram Bot** for real-time neural-link alerts.
 
-
+![SYNAPSE-X Architecture Diagram](architecture.png)
 
 ## 🛠 Tech Stack
 - **OS:** Fedora Linux
@@ -24,11 +23,10 @@ The agent operates as a closed-loop system:
 
 ## 🚀 Getting Started
 1. Clone the repository.
-2. Initialize a virtual environment and install \`requirements.txt\`.
-3. Ensure **Ollama** is running with the \`llama3\` model.
-4. Configure your n8n Webhook URL in \`api.py\`.
-5. Run \`python api.py\` to start the sentinel.
+2. Initialize a virtual environment and install `requirements.txt`.
+3. Ensure **Ollama** is running with the `llama3` model.
+4. Configure your n8n Webhook URL in `api.py`.
+5. Run `python api.py` to start the sentinel.
 
 ---
 *Developed by Nicolás - 2026*
-EOF
