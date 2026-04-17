@@ -1,4 +1,4 @@
-cat <<EOF > README.md
+<<EOF > README.md
 # ⚡ SYNAPSE-X v1.0
 > **Autonomous AI Infrastructure Sentinel**
 
